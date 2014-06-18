@@ -33,3 +33,9 @@ strace -c ./open  28.05s user 83.39s system 99% cpu 1:52.26 total
 ------ ----------- ----------- --------- --------- ----------------
 100.00    0.790139              10000025  10000003 total
 strace -c ./stat  27.01s user 72.27s system 99% cpu 1:39.43 total
+
+[ nwatson@core ]:~/bench$ time ./open 
+./open  0.35s user 6.51s system 99% cpu 6.888 total
+[ nwatson@core ]:~/bench$ time ./stat 
+./stat  0.40s user 2.36s system 99% cpu 2.770 total
+
